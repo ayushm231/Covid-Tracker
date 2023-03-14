@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVme0bXlgYkxj04Dh00M72BXWr7cmTDPjOTQ&usqp=CAU');
+background-size: cover; */
+    background-color: #373b3e;
+}
+
+.conatiner {
+    width: 90%;
+    margin-top: 11vh;
+
+}
+
+th {
+    text-shadow: 1px 1px 2px black, 0 0 25px, 0 0 5px darkblue;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+
+}
+
+animated {
+    animation: left-right 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes left-right {
+    0% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(-10px);
+    }
+}
+
+@keyframes left-right {
+    0% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(-10px);
+    }
+}
